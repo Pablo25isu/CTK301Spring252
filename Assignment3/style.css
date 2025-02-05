@@ -1,0 +1,44 @@
+a{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+
+ul{
+    background-color: gray;
+}
+
+h1{
+    color: navy;
+}
+
+h2{
+    color: blue;
+
+}
+
+.ML{
+    color: royalblue;
+}
+
+#divexample{
+    background-color: pink;
+}
+
+.spanstyle{
+    color: palevioletred;
+}
+
+h3{
+    color: blueviolet;
+}
+
+h4{
+    color: darkcyan;
+}
