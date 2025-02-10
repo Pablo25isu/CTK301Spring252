@@ -1,0 +1,52 @@
+a{
+    color: aqua;
+}
+
+a:hover{
+    color: red;
+}
+
+h1{
+    color: aliceblue;
+}
+
+main{
+    background-color: navy;
+}
+
+h2{
+    color: hotpink;
+}
+
+.look{
+    color: yellowgreen;
+}
+
+h3{
+    background-color: orange;
+}
+
+.Dark{
+    color: darkblue;
+}
+
+h4{
+    color: aquamarine;
+    background-color: silver;
+}
+
+.silv{
+    background-color: gray;
+}
+
+h5{
+    color: orangered;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+.HL{
+    color: violet;
+}
