@@ -11,7 +11,6 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
-  grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */
 }
 body{
   background-color: black;
@@ -23,6 +22,11 @@ header{
   padding-bottom: 5px;
   background-color: navy;
   color: white;
+  font-family: "Bebas Neue", sans-serif;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px cyan;
+  text-shadow: 2px 2px 2px #000;
+  }
 }
 h1{
   text-align: center;
@@ -40,11 +44,11 @@ nav ul{
 nav li{
   width: 250px;
   margin-right: 25px;
-  
   margin-top: 1px;
   margin-bottom: 15px;
   background-color: navy;
   display: inline-block;
+  border-radius: 10px;
 }
 nav li a{
   color: white;
@@ -52,9 +56,12 @@ nav li a{
   display: block;
   padding: 20px;
   text-align: center;
+  transition: background-color 1s;
 }
 nav li a:hover{
   background-color: blue;
+  border-radius: 10px;
+  color: cyan;
 }
 img{
   width: 950px;
