@@ -1,0 +1,68 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: cornflowerblue;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+body{
+  background-color: black;
+}
+header{
+  grid-column: span 6;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: navy;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px cyan;
+  text-shadow: 2px 2px 2px #000;
+}
+h1{
+  text-align: center;
+}
+nav{
+  grid-column: span 12;
+  margin-top: 5px;
+}
+nav ul{
+  list-style-type: none;
+  margin: 5px;
+  
+  
+}
+nav li{
+  width: 250px;
+  margin-right: 25px;
+  margin-top: 1px;
+  margin-bottom: 15px;
+  background-color: navy;
+  display: inline-block;
+  border-radius: 10px;
+}
+nav li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 1s;
+}
+nav li a:hover{
+  background-color: blue;
+  border-radius: 10px;
+  color: cyan;
+}
+img{
+  width: 200px;
+}
+
